@@ -12,7 +12,9 @@
     
 <h2>
     {{-- <?php echo $listing['title']; ?> --}}
-    {{$listing['title']}}
+    <a href="/listings/{{$listing['id']}}">
+        {{$listing['title']}}
+    </a>
 </h2>
 <p>
     {{-- <?php echo $listing['description']; ?> --}}
